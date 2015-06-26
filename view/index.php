@@ -13,22 +13,9 @@
 <body><div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <ul class="nav nav-tabs">
 
-                <li class="active">
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Actus</a>
-                </li>
-                <li>
-                    <a href="#">Le lycée</a>
-                </li>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Connectez-vous</a></li>
-                    <li><a class="marg-row-facebook" href="#"><img src="../img/facebook.png" alt="logo facebook" style="width:25px; height:25px;" /> </a></li>
-                    <li><a class="marg-row-twitter" href="#"><img src="../img/twitter.png" alt="logo twitter" style="width:25px; height:25px;" /> </a></li>
-                </ul>
+           <!--ICI LA BARRE DE NAVIGATION -->
+            <?php include("header.php"); ?>
 
             </ul>
             <div class="jumbotron">
@@ -86,12 +73,9 @@
         </div>
     </div>
 </div>
-<div class="panel-footer">
-    <ol class="breadcrumb">
-        <li><a href="#">Mentions</a></li>
-        <li><a href="#">Légales</a></li>
-        <li class="active">Contact</li>
-    </ol>
-</div>
+
+<!--ICI LE FOOTER -->
+<?php include("footer.php"); ?>
+
 </body>
 </html>
