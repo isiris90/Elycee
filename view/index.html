@@ -4,48 +4,94 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/reset.css" type="text/css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/bootstrap.css" type="text/css">
     <script src="../js/bootstrap.min.js"></script>
 
     <title>Elycee</title>
 </head>
 
-<body>
-<div class="container-fluid">
-  <header>
-      <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-              <nav class="navbar navbar-default">
-                  <div class="container-fluid">
-                      <!-- Brand and toggle get grouped for better mobile display -->
-                      <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                              <span class="sr-only">Toggle navigation</span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                              <span class="icon-bar"></span>
-                          </button>
-                          <a class="navbar-brand" href="#">E-lycée</a>
-                      </div>
+<body><div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <ul class="nav nav-tabs">
 
-                      <!-- Collect the nav links, forms, and other content for toggling -->
-                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                          <ul class="nav navbar-nav">
-                              <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                              <li><a href="#">Link</a></li>
-                          </ul>
-                          <ul class="nav navbar-nav navbar-right">
-                              <li><a href="#">Link</a></li>
-                          </ul>
-                      </div><!-- /.navbar-collapse -->
-                  </div><!-- /.container-fluid -->
-              </nav>
-          </div>
-      </nav>
-  </header>
-<div class=".col-md-8">blblblb</div>
-    <div class=".col-md-4">azerty</div>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Actus</a>
+                </li>
+                <li>
+                    <a href="#">Le lycée</a>
+                </li>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Connectez-vous</a></li>
+                    <li><a class="marg-row-facebook" href="#"><img src="../img/facebook.png" alt="logo facebook" style="width:25px; height:25px;" /> </a></li>
+                    <li><a class="marg-row-twitter" href="#"><img src="../img/twitter.png" alt="logo twitter" style="width:25px; height:25px;" /> </a></li>
+                </ul>
 
+            </ul>
+            <div class="jumbotron">
+                <h2>
+                    Bienvenue sur le site <br/>du lycée d'Ardèche
+                </h2>
+                <p>
+                    Vous trouverez ici l'ensemble des actualitées liées au lycée d'ardèche. Mais aussi des informations complémentaire sur l'établissement.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row-actu">
+        <div class="col-md-4">
+            <h2>
+                Les suites récurrentes
+            </h2>
+            <a class="img-actu" href="#">image de l'actu</a>
+            <p>
+                Une telle suite est entièrement déterminée par la donnée des p premiers termes de la suite et par la relation de récurrence.
+
+                Les suites récurrentes linéaires d’ordre 1 s’appellent plus simplement des suites géométriques de raison a_0.
+            </p>
+            <p>
+                <a href="#" class="btn btn-xs btn-primary">Lire la suite »</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>
+                La machine de Turing
+            </h2>
+            <a class="img-actu2" href="#">image de l'actu</a>
+            <p>
+                Une telle suite est entièrement déterminée par la donnée des p premiers termes de la suite et par la relation de récurrence.
+
+                Les suites récurrentes linéaires d’ordre 1 s’appellent plus simplement des suites géométriques de raison a_0.
+            </p>
+            <p>
+                <a href="#" class="btn btn-xs btn-primary">Lire la suite »</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <h2>
+                A lire aussi
+            </h2>
+            <ul>
+                <li><a class="l-actu" href="#"><p>» Philae Endormi</p></a></li>
+                <li><a class="l-actu" href="#"><p>» Fusée Antares</p></a></li>
+                <br>
+            </ul>
+            <p>
+                <a class="twitter-timeline" href="https://twitter.com/hashtag/lyceeardeche" data-widget-id="554999390436622336">Tweets sur #lyceeardeche</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="panel-footer">
+    <ol class="breadcrumb">
+        <li><a href="#">Mentions</a></li>
+        <li><a href="#">Légales</a></li>
+        <li class="active">Contact</li>
+    </ol>
 </div>
 </body>
 </html>
