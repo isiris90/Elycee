@@ -64,6 +64,7 @@
             <ul>
                 <li><a class="l-actu" href="#"><p>» Philae Endormi</p></a></li>
                 <li><a class="l-actu" href="#"><p>» Fusée Antares</p></a></li>
+                <li><a href="pagedesactu.php" class="btn btn-sm btn-danger">Toutes nos actualitées</a></li>
                 <br>
             </ul>
             <p>

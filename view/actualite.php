@@ -30,36 +30,31 @@
     </div>
     <div class="row-actu">
         <div class="col-md-8">
-           <div class="lesactus">
-               <h2>
-                    Les suites récurrentes
-                </h2>
-            <a class="img-actu" href="#">image de l'actu</a>
-            <p>
-                Une telle suite est entièrement déterminée par la donnée des p premiers termes de la suite et par la relation de récurrence.
-
-                Les suites récurrentes linéaires d’ordre 1 s’appellent plus simplement des suites géométriques de raison a_0.
-            </p>
-            <p>
-                <a href="#" class="btn btn-xs btn-primary">Lire la suite »</a>
-            </p>
-        </div>
-
             <div class="lesactus">
                 <h2>
                     Les suites récurrentes
                 </h2>
                 <a class="img-actu" href="#">image de l'actu</a>
                 <p>
+                    En mathématiques, on appelle suite récurrente linéaire d’ordre p, toute suite à valeurs dans un corps commutatif K (généralement \mathbb C ou \R) définie pour tout  n \geq n_0 par la relation de récurrence suivante :
+
+                    a_0, a_1, …a_{p-1} étant p scalaires fixés de K (a_0 non nul), pour tout  n \geq n_0, on a
+
+                    u_{n+p} = a_0u_n + a_1u_{n+1} + \cdots + a_{p-1}u_{n+p-1}
                     Une telle suite est entièrement déterminée par la donnée des p premiers termes de la suite et par la relation de récurrence.
 
                     Les suites récurrentes linéaires d’ordre 1 s’appellent plus simplement des suites géométriques de raison a_0.
+
+                    L'étude des suites récurrentes linéaires d'ordre supérieur se ramène à un problème d'algèbre linéaire. L'expression du terme général d'une telle suite est possible pour peu qu'on soit capable de factoriser un polynôme qui lui est associé, appelé polynôme caractéristique ; le polynôme caractéristique associé à une suite vérifiant la relation de récurrence ci-dessus est :
+
+                    P(X) = X^p - \sum_{i = 0}^{p-1}a_iX^i=X^p-a_{p-1}X^{p-1}-a_{p-2} X^{p-2}-\dots-a_1 X-a_0.
+                    Son degré est ainsi égal à l'ordre de la relation de récurrence. En particulier, dans le cas des suites d'ordre 2, le polynôme est de degré 2 et peut donc être factorisé à l'aide d'un calcul de discriminant. Ainsi, le terme général des suites récurrentes linéaires d'ordre 2, peut être exprimé en utilisant seulement les deux premiers termes, quelques valeurs constantes, quelques opérations élémentaires de l'arithmétique (addition, soustraction, multiplication, exponentielle) et les fonctions sinus et cosinus (si le corps des scalaires est le corps des réels). Une des suites de ce type est la très célèbre suite de Fibonacci qui peut s'exprimer à partir de puissances faisant intervenir le nombre d'or.
                 </p>
-                <p>
-                    <a href="#" class="btn btn-xs btn-primary">Lire la suite »</a>
-                </p>
+
             </div>
-            </div>
+
+
+        </div>
 
 
 
