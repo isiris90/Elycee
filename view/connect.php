@@ -39,7 +39,7 @@
                 <div class="control-group">
                     <label class="control-label" for="textinput">Votre identifiant</label>
                     <div class="controls">
-                        <input id="textinput" name="textinput" type="text" placeholder="adresse mail" class="input-xlarge">
+                        <input id="email" name="email" type="email" placeholder="adresse mail" class="input-xlarge">
 
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                 <div class="control-group">
                     <label class="control-label" for="passwordinput">Votre mot de pass</label>
                     <div class="controls">
-                        <input id="passwordinput" name="passwordinput" type="password" placeholder="mot de pass" class="input-xlarge">
+                        <input id="password" name="password" type="password" placeholder="mot de pass" class="input-xlarge">
 
                     </div>
                 </div>
@@ -62,8 +62,14 @@
                 </div>
 
             </fieldset>
-        </form>
 
+        </form>
+        <ul>
+            <br/>
+            <li><a class="l-actu" href="#"><p>» Mot de pass oublié ?</p></a></li>
+            <li><a class="l-actu" href="index.php"><p>» Retour sur le site</p></a></li>
+            <br>
+        </ul>
 
 
 

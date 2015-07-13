@@ -5611,6 +5611,10 @@ button.list-group-item-danger.active:focus {
   border-bottom-left-radius: 3px;
 }
 
+.space{
+    margin-top: 25px;
+}
+
 .panel-footer ol li a{
     color:#d32f2f;
 }
