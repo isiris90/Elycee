@@ -17,67 +17,78 @@
             <!--ICI LA BARRE DE NAVIGATION -->
             <?php include("header.php"); ?>
 
-            </ul>
 
         </div>
     </div>
     <div class="row-actu">
-        <div class="col-md-6">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
 
-            <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Gestion des fiches
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
-                </ul>
+    <br/>
+
+            <div class="padd-bot-160 ">
+                <label class="list-group-item active" for="case">Gestion des Fiches</label>
+            <input type="checkbox" id="case"/>
+            <div id="surcouche">
+                <div id="msgbox" class="list-group-item">
+
+                    <ul class="">
+                        <li><a class="btn btn-link" href="#">Action</a></li>
+                        <li><a class="btn btn-link" href="#">Another action</a></li>
+                        <li><a class="btn btn-link" href="#">Something else here</a></li>
+                        <li><a class="btn btn-link" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+            <div class="space"></div>
+            <div class="padd-bot-160">
+                <label class="list-group-item active" for="case2">Gestion des Articles</label>
+                <input type="checkbox" id="case2"/>
+                <div id="surcouche">
+                    <div id="msgbox" class="list-group-item">
+
+                        <ul class="">
+                            <li><a class="btn btn-link" href="#">Action</a></li>
+                            <li><a class="btn btn-link" href="#">Another action</a></li>
+                            <li><a class="btn btn-link" href="#">Something else here</a></li>
+                            <li><a class="btn btn-link" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="space"></div>
-            <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Gestion des articles
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li>Les derniers articles</li>
-                    <li><a href="#">Machine de turinh</a></li>
-                    <li><a href="#">Suite numérique</a></li>
-                    <li><a href="#">Musique et fraction</a></li>
-                    <li><a href="#">Voir tout les articles</a></li>
-                </ul>
-            </div>
-            <div class="space"></div>
-            <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Gestion des eleves
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li>Les derniers articles</li>
-                    <li><a href="#">Machine de turinh</a></li>
-                    <li><a href="#">Suite numérique</a></li>
-                    <li><a href="#">Musique et fraction</a></li>
-                    <li><a href="#">Voir tout les articles</a></li>
-                </ul>
+            <div class="padd-bot-160">
+                <label class="list-group-item active" for="case3">Gestion des Eleves</label>
+                <input type="checkbox" id="case3"/>
+                <div id="surcouche">
+                    <div id="msgbox" class="list-group-item">
+
+                        <ul class="">
+                            <li><a class="btn btn-link" href="#">Action</a></li>
+                            <li><a class="btn btn-link" href="#">Another action</a></li>
+                            <li><a class="btn btn-link" href="#">Something else here</a></li>
+                            <li><a class="btn btn-link" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <h2>Statistiques</h2>
+        <div class="col-md-4 list-group">
+            <h2 class="list-group-item active">Statistiques</h2>
             <ul>
-                <li>
-                    <img src="../img/facebook.png" alt="logo facebook" style="width:25px; height:25px;" /> 43 commentaires
+                <li class="list-group-item-text">
+                    <p><img src="../img/facebook.png" alt="logo facebook" style="width:25px; height:25px;" /> 43 commentaires</p>
                 </li>
                 <li>
-                    <img src="../img/facebook.png" alt="logo facebook" style="width:25px; height:25px;" /> 30 fiches publiés
+                    <p><img src="../img/facebook.png" alt="logo facebook" style="width:25px; height:25px;" /> 30 fiches publiés</p>
                 </li>
                 <li>
-                    <img src="../img/facebook.png" alt="logo facebook" style="width:25px; height:25px;" /> 150 eleves
+                    <p><img src="../img/facebook.png" alt="logo facebook" style="width:25px; height:25px;" /> 150 eleves</p>
                 </li>
             </ul>
+
         </div>
     </div>
 </div>
