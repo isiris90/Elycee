@@ -6948,3 +6948,17 @@ label{
 .padd-bot-160{
     padding-bottom: 160px;
 }
+
+/* ---------------------MARGIN-------------------------- */
+.marg-bot-15
+{
+    margin-bottom: 15px;
+}
+
+
+
+/* ---------------------CENTER-------------------------- */
+
+.child{
+    vertical-align:middle;
+}
